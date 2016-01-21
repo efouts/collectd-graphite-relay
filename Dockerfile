@@ -1,4 +1,4 @@
-FROM gliderlabs/alpine:3.3
+FROM alpine:latest
 
 ENV COLLECTD_LISTEN_ADDR 0.0.0.0
 ENV COLLECTD_LISTEN_PORT 25826
