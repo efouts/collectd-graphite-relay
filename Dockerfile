@@ -5,6 +5,7 @@ ENV COLLECTD_LISTEN_PORT 25826
 ENV GRAPHITE_HOST 127.0.0.1
 ENV GRAPHITE_PORT 2003
 
+RUN apt-get update
 RUN apt-get install -y collectd
 
 ADD collectd.conf /etc/collectd/collectd.conf
