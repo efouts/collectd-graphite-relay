@@ -12,4 +12,4 @@ ADD entrypoint.sh /
 
 EXPOSE 25826
 
-CMD [ "entrypoint.sh" ] 
+CMD [ "/entrypoint.sh" ] 
